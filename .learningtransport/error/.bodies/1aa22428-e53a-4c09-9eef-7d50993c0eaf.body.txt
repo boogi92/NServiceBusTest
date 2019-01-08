@@ -1,1 +1,0 @@
-<?xml version="1.0"?><ResponseGetPoems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.net/LimeTest.Messages.Poems"><Poems><Poem><Id>0</Id><Distance>0</Distance></Poem><Poem><Id>0</Id><Distance>0</Distance></Poem></Poems></ResponseGetPoems>
