@@ -1,0 +1,31 @@
+﻿<script>
+
+    function onUpdate() {
+        $('.mvc-grid').mvcgrid({
+            requestType: 'get', // defaults to get
+            reload: true
+        });
+    }
+</script>
+<a href="javascript:void(0)" date-hidear="false" onclick="onAdd()" class="ui green  button">Добавить</a>
+
+<label for="file-upload" class="ui green  button">Загрузить фаил</label>
+<input id="file-upload" type="file" style="display:none" />
+
+<a href="javascript:void(0)" date-hidear="false" onclick="onUpdate()" class="ui primary button">Обновить</a>
+<br>
+<br>
+
+<div class="row">
+    <form action="/home/Generate" method="POST">
+        <input type="submit" class="btn btn-lg btn-success" onclick="sentMessage()" value="Get one &raquo;" />
+    </form>
+</div>
+
+<div class="row">
+    <form action="/home/Download" method="POST">
+        <input type="submit" class="btn btn-lg btn-success" onclick="sentMessage()" value="Download report &raquo;" />
+    </form>
+</div>
+
+@Html.AjaxGrid(Url.Action("Grid"))

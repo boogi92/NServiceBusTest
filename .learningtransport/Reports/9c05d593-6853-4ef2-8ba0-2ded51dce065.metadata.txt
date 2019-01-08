@@ -1,0 +1,15 @@
+{
+  "NServiceBus.MessageId": "337f9686-2e91-4f1a-aef9-a9cf01228fd8",
+  "NServiceBus.MessageIntent": "Publish",
+  "NServiceBus.RelatedTo": "b2d7dba2-4de4-40a5-ada9-a9cf01227aaf",
+  "NServiceBus.ConversationId": "083521e9-49a1-4201-b849-a9cf01227aaf",
+  "NServiceBus.CorrelationId": "b2d7dba2-4de4-40a5-ada9-a9cf01227aaf",
+  "NServiceBus.OriginatingMachine": "DESKTOP-KBE494B",
+  "NServiceBus.OriginatingEndpoint": "People",
+  "$.diagnostics.originating.hostid": "d6aa62affeeab6c893fc98ecf64114f7",
+  "NServiceBus.ReplyToAddress": "People",
+  "NServiceBus.ContentType": "text\/xml",
+  "NServiceBus.EnclosedMessageTypes": "LimeTest.Messages.Poems.GetPoem, LimeTest.Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "NServiceBus.Version": "7.1.6",
+  "NServiceBus.TimeSent": "2019-01-08 17:37:54:210230 Z"
+}

@@ -1,0 +1,1224 @@
+﻿2019-01-08 23:07:36.000 INFO  DefaultFactory Logging to 'C:\Project\LImeTest\LImeTest\Web\App_Data\' with level Info
+2019-01-08 23:07:36.256 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-01-03'.
+
+2019-01-08 23:09:10.244 INFO  DefaultFactory Logging to 'C:\Project\LImeTest\LImeTest\Web\App_Data\' with level Info
+2019-01-08 23:09:10.468 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-01-03'.
+
+2019-01-08 23:10:47.410 INFO  DefaultFactory Logging to 'C:\Project\LImeTest\LImeTest\Web\App_Data\' with level Info
+2019-01-08 23:10:47.634 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-01-03'.
+
+2019-01-08 23:23:24.330 INFO  DefaultFactory Logging to 'C:\Project\LImeTest\LImeTest\Web\App_Data\' with level Info
+2019-01-08 23:23:24.565 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-01-03'.
+
+2019-01-08 23:24:42.016 INFO  DefaultFactory Logging to 'C:\Project\LImeTest\LImeTest\Web\App_Data\' with level Info
+2019-01-08 23:24:42.252 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-01-03'.
+
+2019-01-08 23:51:47.017 INFO  DefaultFactory Logging to 'C:\Project\LImeTest\LImeTest\Web\App_Data\' with level Info
+2019-01-08 23:51:47.319 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-01-03'.
+
+2019-01-08 23:54:46.613 INFO  DefaultFactory Logging to 'C:\Project\LImeTest\LImeTest\Web\App_Data\' with level Info
+2019-01-08 23:54:50.012 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-01-03'.
+
+2019-01-08 23:55:02.843 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MutateIncomingMessageBehavior.<InvokeIncomingMessageMutators>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.UnitOfWorkBehavior.<InvokeUnitsOfWork>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в NServiceBus.UnitOfWorkBehavior.<InvokeUnitsOfWork>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MutateIncomingTransportMessageBehavior.<InvokeIncomingTransportMessagesMutators>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:02.898 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:02.938 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:02.991 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:03.031 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:03.086 WARN  NServiceBus.RecoverabilityExecutor Delayed Retry will reschedule message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' after a delay of 00:00:10 because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:14.502 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:14.549 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:14.596 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:14.627 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:14.677 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:14.729 WARN  NServiceBus.RecoverabilityExecutor Delayed Retry will reschedule message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' after a delay of 00:00:20 because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:35.643 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:35.688 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:35.739 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:35.786 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:35.824 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:55:35.858 WARN  NServiceBus.RecoverabilityExecutor Delayed Retry will reschedule message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' after a delay of 00:00:30 because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:56:17.937 INFO  DefaultFactory Logging to 'C:\Project\LImeTest\LImeTest\Web\App_Data\' with level Info
+2019-01-08 23:56:18.310 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-01-03'.
+
+2019-01-08 23:56:20.031 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MutateIncomingMessageBehavior.<InvokeIncomingMessageMutators>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.UnitOfWorkBehavior.<InvokeUnitsOfWork>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в NServiceBus.UnitOfWorkBehavior.<InvokeUnitsOfWork>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MutateIncomingTransportMessageBehavior.<InvokeIncomingTransportMessagesMutators>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:56:20.091 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:56:20.143 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:56:20.195 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:56:20.303 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:56:20.361 ERROR NServiceBus.RecoverabilityExecutor Moving message '4fee19ec-88ff-4edf-8ed5-a9cf0116ca3f' to the error queue 'error' because processing failed due to an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:56:56.315 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:56:56.360 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:56:56.420 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:56:56.472 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:56:56.519 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:56:56.563 WARN  NServiceBus.RecoverabilityExecutor Delayed Retry will reschedule message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' after a delay of 00:00:10 because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:57:07.808 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:57:07.844 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:57:07.892 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:57:07.921 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:57:07.953 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:57:08.005 WARN  NServiceBus.RecoverabilityExecutor Delayed Retry will reschedule message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' after a delay of 00:00:20 because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:57:29.948 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:57:29.987 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:57:30.034 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:57:30.083 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:57:30.129 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:57:30.173 WARN  NServiceBus.RecoverabilityExecutor Delayed Retry will reschedule message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' after a delay of 00:00:30 because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:58:00.112 INFO  DefaultFactory Logging to 'C:\Project\LImeTest\LImeTest\Web\App_Data\' with level Info
+2019-01-08 23:58:00.485 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-01-03'.
+
+2019-01-08 23:58:01.989 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MutateIncomingMessageBehavior.<InvokeIncomingMessageMutators>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.UnitOfWorkBehavior.<InvokeUnitsOfWork>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в NServiceBus.UnitOfWorkBehavior.<InvokeUnitsOfWork>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MutateIncomingTransportMessageBehavior.<InvokeIncomingTransportMessagesMutators>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:58:02.034 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:58:02.084 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:58:02.142 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:58:02.265 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' because of an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:58:02.320 ERROR NServiceBus.RecoverabilityExecutor Moving message 'fd475481-d0fa-4c96-a8f6-a9cf01174d80' to the error queue 'error' because processing failed due to an exception:
+System.InvalidOperationException: No handlers could be found for message type: LimeTest.Messages.Reports.ResponseGetReport
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в NServiceBus.LearningTransportMessagePump.<ProcessFile>d__10.MoveNext()
+2019-01-08 23:58:29.565 INFO  DefaultFactory Logging to 'C:\Project\LImeTest\LImeTest\Web\App_Data\' with level Info
+2019-01-08 23:58:29.890 INFO  NServiceBus.LicenseManager No valid license could be found. Falling back to trial license with start date '2019-01-03'.
+

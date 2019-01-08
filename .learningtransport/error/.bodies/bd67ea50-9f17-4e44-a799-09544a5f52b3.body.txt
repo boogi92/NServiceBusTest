@@ -1,0 +1,41 @@
+<?xml version="1.0"?><ResponseGetPoems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.net/LimeTest.Messages.Poems"><Poems><Poem><Id>1</Id><Title>To Give Is To Receive</Title><Content>Lips that give compliments
+ in order to cheer
+ Is better than lips
+ that only can sneer
+ A kindly word spoken
+ to a friend, stranger of foe
+ leads to a better path forward
+ through lifetime to go
+ Care for the loneliest
+ who only know strife
+ let them experience
+ some joy in their life.
+ You lose nothing by giving
+ a kindly word, friendly smile
+ You'll find you get deeper meaning
+ to a life that's worthwhile.
+ So reap a rich harvest
+ with the kindnesses you have sown
+ making other lives happy
+ as well as your own.</Content><Url>https://www.poemist.com/denis-pyle/to-give-is-to-receive</Url><Author> Denis Pyle</Author><Distance>0.33643979447919492</Distance><People><Id>3</Id></People></Poem><Poem><Id>2</Id><Title>Proving False</Title><Content>News runs faster 
+than the sun. It is 
+dark already.
+
+You have started arresting 
+the shadows. I was still 
+talking to a rose.
+
+Let's go somewhere. Where 
+no war cries are heard 
+for a day.
+
+How many, will you― 
+count the dead? Each mortal 
+wants to go home.
+
+The postcards, don't 
+arrive from the front 
+anymore.
+
+Will you take my message 
+by the severed head.</Content><Url>https://www.poemist.com/satish-verma/proving-false</Url><Author>Satish Verma</Author><Distance>0.35463003086225808</Distance><People><Id>4</Id></People></Poem></Poems></ResponseGetPoems>

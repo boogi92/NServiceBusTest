@@ -1,0 +1,15 @@
+{
+  "NServiceBus.MessageId": "36f12bb4-d58a-4e79-a709-a9cf0125a446",
+  "NServiceBus.MessageIntent": "Reply",
+  "NServiceBus.RelatedTo": "e31891e3-b0cc-471c-a8e7-a9cf0125a409",
+  "NServiceBus.ConversationId": "1c7d6bb9-8cc0-477f-a2b0-a9cf0125a409",
+  "NServiceBus.CorrelationId": "e31891e3-b0cc-471c-a8e7-a9cf0125a409",
+  "NServiceBus.OriginatingMachine": "DESKTOP-KBE494B",
+  "NServiceBus.OriginatingEndpoint": "Report",
+  "$.diagnostics.originating.hostid": "81ce4ed5c9f23073b2e439b2cac668f7",
+  "NServiceBus.ReplyToAddress": "Report",
+  "NServiceBus.ContentType": "text\/xml",
+  "NServiceBus.EnclosedMessageTypes": "LimeTest.Messages.Reports.ResponseGetReport, LimeTest.Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "NServiceBus.Version": "7.1.6",
+  "NServiceBus.TimeSent": "2019-01-08 17:49:07:000371 Z"
+}
