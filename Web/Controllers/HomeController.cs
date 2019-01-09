@@ -67,6 +67,7 @@ namespace Web.Controllers
             return Json(model);
         }
 
+        [HttpPost]
         public async Task<ActionResult> Download()
         {
             var message = new GetReport();
